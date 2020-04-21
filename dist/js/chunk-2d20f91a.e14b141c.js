@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d20f91a"],{b3d7:function(a,n,t){"use strict";t.r(n);var e=function(){var a=this,n=a.$createElement,t=a._self._c||n;return t("div",{staticClass:"view-B"},[a._v(" 领养须知balabala ")])},s=[],c={data:function(){return{}},components:{},methods:{}},o=c,u=t("2877"),d=Object(u["a"])(o,e,s,!1,null,"52aadfdf",null);n["default"]=d.exports}}]);
+//# sourceMappingURL=chunk-2d20f91a.e14b141c.js.map
