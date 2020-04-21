@@ -40,7 +40,6 @@ const routes = [
 
 const router = new VueRouter({
     routes,
-    mode: 'history',
     base: '/take-me-home/'
 })
 

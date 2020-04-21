@@ -3,8 +3,11 @@ import store from '../store'
 
 
 export function request(config) {
+    // console.log('base',publicPath);
+
     const instance = axios.create({
-        baseURL: '/vData',
+        // baseURL: '/vData', //开发时使用
+        baseURL: '/take-me-home/vData', //部署时使用
         timeout: 5000
     })
     // 在请求或响应被 then 或 catch 处理前拦截它们。
