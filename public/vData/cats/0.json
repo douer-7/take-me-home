@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "data": {
+    "id": 0,
+    "sex": "母",
+    "age": "2个月",
+    "isCastration": "是",
+    "appearance": "橘白 黄眼",
+    "description": "我的大宝贝，只能康康",
+    "avator": "http://q89i86o3a.bkt.clouddn.com/yamaha1.jpg",
+    "imgs": [
+      "http://q89i86o3a.bkt.clouddn.com/yamaha0.jpg",
+      "http://q89i86o3a.bkt.clouddn.com/yamaha2.jpg"
+    ]
+  }
+}
