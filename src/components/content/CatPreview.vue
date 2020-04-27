@@ -50,12 +50,10 @@ export default {
 
 <style scoped>
 .card {
-  background-size: 100% auto;
   margin-bottom: 10px;
   border-radius: 5px;
   overflow: hidden;
   position: relative;
-  background-color: #f7c5a8;
 }
 .imgBox {
   width: 100%;
@@ -63,22 +61,26 @@ export default {
   background-color: #ddd;
 }
 .card-img {
-  width: auto;
+  width: 100%;
   height: auto;
-  max-width: 100%;
-  max-height: 100%;
   position: absolute;
   top: 0;
+  z-index: 1;
 }
 .catInfo {
   padding: 0 10px;
   display: flex;
   justify-content: space-between;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f7c5a8;
 }
-.age{
+.age {
   color: #fa744f;
 }
-.sex{
+.sex {
   color: #16817a;
 }
 </style>

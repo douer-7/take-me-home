@@ -49,9 +49,9 @@ export default {
     getCatInfo() {
       // 请求数据
       request({
-        url: "/cats/" + this.$route.params.id + ".json"
+        url: "/cat?id=" + this.$route.params.id
       }).then(res => {
-        console.log(res);
+        console.log(res.data.data);
         this.catsInfo = res.data.data;
       });
     },

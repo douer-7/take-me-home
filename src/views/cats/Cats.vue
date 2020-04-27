@@ -35,9 +35,9 @@ export default {
   methods: {
     getCatList() {
       request({
-        url: "/catList.json"
+        url: "/cat/List"
       }).then(res => {
-        console.log(res);
+        console.log(res.data.data);
         this.cats = res.data.data;
       });
     },
@@ -53,9 +53,10 @@ export default {
 
 <style scoped>
 .catList {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  /* flex-wrap: wrap;
+  justify-content: space-between; */
 }
 .cat-card {
   width: 45vw;

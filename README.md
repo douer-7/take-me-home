@@ -1,4 +1,11 @@
 # take-me-home
+## [预览地址](https://douer7.gitee.io/take-me-home/#/home)
+
+### 使用了：
+- vue
+- 七牛云图床
+- iconfont图标库
+- axios请求本地json
 
 ## Project setup
 ```
