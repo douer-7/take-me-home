@@ -7,8 +7,8 @@ export function request(config) {
 
     const instance = axios.create({
         baseURL: process.env.NODE_ENV === 'production'
-            ? '/'
-            : 'http://localhost:3000',
+            ? '/api/take-me-home'
+            : 'http://localhost:3000/api/take-me-home',
         timeout: 5000
     })
     // 在请求或响应被 then 或 catch 处理前拦截它们。
